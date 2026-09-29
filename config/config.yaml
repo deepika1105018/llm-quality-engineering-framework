@@ -1,0 +1,7 @@
+model:
+  timeout_seconds: 30
+  max_new_tokens: 250
+evaluation:
+  minimum_relevance: 0.60
+  minimum_groundedness: 0.50
+  max_response_seconds: 5.0
