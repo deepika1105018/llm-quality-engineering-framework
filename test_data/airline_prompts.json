@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pnr_ticket",
+    "prompt": "Explain the difference between a PNR and an airline ticket.",
+    "expected_keywords": ["PNR", "reservation", "ticket"],
+    "reference": "A PNR is a reservation record containing itinerary and passenger booking information. A ticket is the travel document associated with payment and entitlement to travel."
+  },
+  {
+    "id": "missed_connection",
+    "prompt": "What should an airline assistant explain when a passenger misses a connection?",
+    "expected_keywords": ["connection", "rebooking", "baggage"],
+    "reference": "The assistant should explain connection status, available rebooking options, and how checked baggage will be handled."
+  },
+  {
+    "id": "baggage_transfer",
+    "prompt": "Explain baggage transfer for a connecting passenger in simple terms.",
+    "expected_keywords": ["baggage", "transfer", "connection"],
+    "reference": "Checked baggage may be transferred between eligible connecting flights according to the passenger itinerary and airport or airline process."
+  },
+  {
+    "id": "codeshare",
+    "prompt": "What is a codeshare flight?",
+    "expected_keywords": ["airline", "flight", "operated"],
+    "reference": "A codeshare is an arrangement where one airline markets a flight using its code while the flight is operated by another airline."
+  }
+]
